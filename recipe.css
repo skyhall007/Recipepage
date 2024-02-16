@@ -1,0 +1,162 @@
+body {
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    text-align: justify;
+    align-items: center;
+}
+
+.card {
+    background-color: white;
+    border-radius: 15px;
+     }
+
+img {
+    width: 600px;
+    border-radius: 10px;
+    margin: 30px 30px 0px 30px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: auto;
+    text-align: justify;
+    margin-bottom: 30px;
+    font-family: Outfit-VariableFont_wght;
+    color:  hsl(30, 10%, 34%);
+    font-weight: 500;
+
+}
+
+td {
+    padding: 5px;
+
+}
+
+.tom {
+    margin: 0px 30px;
+}
+
+.bd {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.171);
+}
+
+.bo {
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.171);
+}
+
+.bo1 {
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+
+
+.bc {
+    font-weight: 700;
+}
+
+
+.haut {
+    border-collapse: collapse;
+    width: 90%;
+    text-align: justify;
+}
+
+
+.ht1 {
+    font-size: 35px;
+    font-family: YoungSerif-Regular;
+    color: black;
+}
+
+h4 {
+    margin: 10px 50px ;
+    font-family: Outfit-VariableFont_wght;
+    color: hsl(332, 51%, 32%);
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.text {
+    font-family: Outfit-VariableFont_wght;
+    color:  hsl(30, 10%, 34%);
+    font-weight: 500;
+} 
+
+.text1 {
+    font-family: Outfit-VariableFont_wght;
+    color:  hsl(30, 10%, 34%);
+    font-weight: 500;
+    margin: 0px 30px 30px 30px;
+
+} 
+
+h3 {
+    font-family: YoungSerif-Regular;
+    font-size: 25px;
+    color: hsl(14, 45%, 36%);
+    font-weight: 500;
+
+}
+
+
+.first {
+    margin: 0px 30px 30px 30px;
+}
+
+.second {
+  margin: 30px 30px;
+  font-family: YoungSerif-Regular;
+  color: hsl(14, 45%, 36%);
+  font-weight: 500;
+}
+
+.third {
+    margin: auto 30px ;
+    font-family: Outfit-VariableFont_wght;
+}
+
+
+ul > li {
+    padding: 0px 10px 5px;
+}
+
+ol > li {
+    padding: 0px 10px 5px;
+}
+
+ul {
+    font-family: Outfit-VariableFont_wght;
+    color:  hsl(30, 10%, 34%);
+    font-weight: 500;
+}
+
+
+ol {
+    font-size: 16px;
+    font-family: Outfit-VariableFont_wght;
+    color:  hsl(30, 10%, 34%);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: YoungSerif-Regular;
+    src: local(YoungSerif-Regular), url(YoungSerif-Regular.ttf), format(.ttf);
+}
+
+@font-face {
+    font-family: Outfit-VariableFont_wght;
+    src: local(Outfit-VariableFont_wght), url(Outfit-VariableFont_wght.ttf), format(.ttf);
+}
+
+
+.separation {
+    width: 90%;
+    margin: auto 30px auto 30px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.171);
+}
